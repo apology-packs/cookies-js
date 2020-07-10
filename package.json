@@ -1,0 +1,30 @@
+{
+  "name": "@apology/cookies",
+  "version": "0.0.1",
+  "homepage": "https://github.com/apology-packs/cookies-js",
+  "description": "Giving easy access to browser cookies.",
+  "main": "index.js",
+  "private": false,
+  "scripts": {
+    "test": "jest --watchAll",
+    "test:ci": "jest",
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
+  },
+  "keywords": [
+    "Apology",
+    "Cookies",
+    "React",
+    "ReactJS",
+    "TypeScript",
+    "NPM"
+  ],
+  "devDependencies": {
+    "coveralls": "^3.0.3",
+    "jest": "^24.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apology-packs/cookies-js.git"
+  },
+  "license": "MIT"
+}
