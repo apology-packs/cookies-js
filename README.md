@@ -24,5 +24,17 @@ deleteCookie(name) - removes the cookie from the browser history.
 
 ### usage
 
-2) Import these methods in es6 like so:
-`import { setCookie, readCookie, deleteCookie } from '@apology/cookies'`
+1) Import these methods in es6 like so:
+```javascript
+import { setCookie, readCookie, deleteCookie } from '@apology/cookies'
+
+// setCookie(keyName, value)
+setCookie('email', 'example@example.com') 
+
+// readCookie(keyName)
+readCookie('email') => 'example@example.com'
+
+// deleteCookie(keyName)
+deleteCookie('email') => null
+
+```
